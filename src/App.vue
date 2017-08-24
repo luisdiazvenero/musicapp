@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='./assets/logo.png')
+    img(src='https://luisdiazvenero.github.io/musicapp/dist/logo.png')
     h1 {{ msg }}
     h2 Top Artistas Peru desde Last.FM
     select(v-model="selectedCountry")
